@@ -1,0 +1,126 @@
+@media print {
+  .tm-sidebar,
+  #about,
+  .heading,
+  .blocks,
+  #ideas,
+  section.tm-content-box {
+    display: none;
+  }
+
+  .tm-main-content {
+    width: 80%;
+    margin: auto;
+  }
+
+  .tm-team-description-container .tm-section-title {
+    color: blue;
+  }
+
+  p::first-letter {
+    color: #76cdd7;
+    font-size: 30px;
+  }
+
+  h2 + p {
+    font-style: italic;
+  }
+
+  .tm-content-box.flex-2-col {
+    display: flex;
+  }
+
+  .tm-content-box.flex-2-col img {
+    width: 150px;
+    margin-top: 150px;
+  }
+}
+
+@media screen {
+  #about h2:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #31b0d5;
+  }
+
+  #about h2 {
+    background: white;
+    font-size: 40px;
+  }
+
+  p::first-letter {
+    color: #87cefa;
+    font-size: 30px;
+  }
+
+  .tm-sidebar,
+  #home,
+  section {
+    box-shadow: 0px 0px 7px 7px lightgray;
+  }
+
+  #ideas h2 {
+    color: gainsboro;
+    letter-spacing: 5px;
+  }
+
+  h2 + p {
+    font-style: italic;
+  }
+
+  .heading.tm-content-box li a:visited {
+    text-decoration: underline;
+  }
+
+  .heading.tm-content-box li:nth-child(1)::after,
+  .heading.tm-content-box li:nth-child(3)::after {
+    content: "New";
+    color: red;
+    font-size: 10px;
+    vertical-align: top;
+  }
+
+  .heading.tm-content-box li a:hover {
+    text-decoration-style: double;
+    color: rgb(131, 202, 247);
+  }
+
+  .boxes.gallery-container li:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .box.box-work p::first-letter {
+    color: black;
+  }
+
+  .box.box-work {
+    padding: 10px;
+  }
+
+  .mandatory-field::after {
+    content: "*";
+    color: red;
+  }
+
+  .submit-btn {
+    color: rgb(131, 202, 247);
+    background-color: white;
+    border-color: rgb(131, 202, 247);
+    padding: 10px 40px;
+    float: right;
+  }
+  .submit-btn:hover {
+    background-color: rgb(131, 202, 247);
+  }
+
+  .tm-content-box.flex-2-col {
+    display: flex;
+  }
+  section::before {
+    content: "";
+    position: absolute;
+    float: left;
+    border-top: 27px solid #31b0d5;
+    border-right: 150px solid transparent;
+  }
+}
