@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $contentBackground;
+}
+
+main {
+  margin: 0 auto;
+  width: 960px;
+  article {
+    background-color: $bgArticle;
+  }
+}
+
+header {
+  background-image: $bgImg;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .btn.btn-top {
+    color: $btnColor;
+    size: 30px;
+  }
+  section {
+    color: $aColor;
+  }
+  .logo {
+    float: left;
+    width: 20%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  nav {
+    float: right;
+    a {
+      color: $aColor;
+      font: $fonts;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 20px 177px 20px 177px;
+      display: inline-block;
+    }
+
+    a:not(:last-of-type) {
+      border-width: 0 2px 0 0;
+      border-style: solid;
+      border-color: $abdcolor;
+    }
+  }
+}
+#about img {
+  width: 100%;
+}

@@ -1,0 +1,78 @@
+body {
+  background: $contentBackground;
+}
+
+main {
+  margin: 0 auto;
+  width: 960px;
+  article {
+    background-color: $bgArticle;
+  }
+}
+
+header {
+  display: flex;
+  background-image: $bgImg;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .btn.btn-top {
+    background-color: $btnColor;
+    color: white;
+    border: none;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  section {
+    color: $aColor;
+  }
+  .logo {
+    float: left;
+    width: 20%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  nav {
+    float: right;
+    a {
+      color: $aColor;
+      font: $fonts;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 20px 177px 20px 177px;
+      display: inline-block;
+    }
+
+    a:not(:last-of-type) {
+      border-width: 0 2px 0 0;
+      border-style: solid;
+      border-color: $abdcolor;
+    }
+  }
+}
+#about img {
+  width: 100%;
+}
+.toolbar {
+  margin: 20px 0 0 80%;
+  input {
+    padding: 10px;
+    border: 1px solid;
+  }
+}
+.post-list{
+  text-align: left;
+  text-transform: uppercase;
+  article{
+      padding: 10px;
+      margin-bottom: 20px;
+      background: $articleBackground;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items:flex-start;

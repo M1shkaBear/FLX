@@ -1,0 +1,98 @@
+body {
+  background: $contentBackground;
+}
+
+main {
+  margin: 0 auto;
+  width: 960px;
+  article {
+    background-color: $bgArticle;
+  }
+}
+
+header {
+  display: flex;
+  background-image: $bgImg;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .btn.btn-top {
+    background-color: $btnColor;
+    color: white;
+    border: none;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  section {
+    color: $aColor;
+  }
+  .logo {
+    float: left;
+    width: 20%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  nav {
+    float: right;
+    a {
+      color: $aColor;
+      font: $fonts;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 20px 177px 20px 177px;
+      display: inline-block;
+    }
+
+    a:not(:last-of-type) {
+      border-width: 0 2px 0 0;
+      border-style: solid;
+      border-color: $abdcolor;
+    }
+  }
+}
+#about img {
+  width: 100%;
+}
+.toolbar {
+  height: 50px;
+  width: 100%;
+  display: block;
+  margin-bottom: 50px;
+  input {
+    float: right;
+    padding-left: 20px;
+    height: 50px;
+    width: 25%;
+    font-size: 15px;
+  }
+}
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  article {
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    width: 48.5%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    div {
+      width: 100%;
+      .post-description {
+        padding: 5px 0 5px 10px;
+        line-height: 25px;
+      }
+      h3 {
+        text-transform: uppercase;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}
