@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-image: url("../img/sample2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.logbtn,
+.subtn {
+  color: white;
+  border: 0px;
+  background-color: Transparent;
+  cursor: pointer;
+}
+.logbuttons {
+  display: flex;
+}

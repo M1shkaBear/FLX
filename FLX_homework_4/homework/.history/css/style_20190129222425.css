@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-image: url("../img/sample2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.logbtn,
+.subtn {
+  color: white;
+  border: 0px;
+  background-color: Transparent;
+  cursor: pointer;
+  justify-content: space-between;
+  font-size: 19px;
+  padding: 15px;
+}
+
+.words {
+  color: white;
+  font-size: 19px;
+}
+.heads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.btns {
+  border: 5px;
+  cursor: pointer;
+  background: rgba(6, 36, 7, 0.39);
+  padding: 60px 38px;
+}

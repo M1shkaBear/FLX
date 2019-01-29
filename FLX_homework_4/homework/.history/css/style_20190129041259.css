@@ -1,0 +1,8 @@
+.header {
+  min-height: 400px;
+  background-image: url("../img/sample2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  padding: 25px;
+}
